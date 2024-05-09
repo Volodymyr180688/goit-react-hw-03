@@ -1,0 +1,28 @@
+.container {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+  border: solid 1px black;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  color: rgb(3, 3, 161);
+}
+.button {
+  padding: 10px;
+  background-color: aqua;
+}
+.button:hover,
+.button:focus {
+  background-color: aquamarine;
+}
